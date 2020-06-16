@@ -333,6 +333,53 @@
     margin-top: 24px;
 }
 
+.minta-bantuan{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.label-minta-bantuan{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.judul-layanan{
+    margin-top: 40px;
+}
+
+.input-form-layanan{
+    margin-top: 16px;
+    background-color: #394056;
+    border-radius: 4px;
+    height: 148px;
+    width: 296px;
+    border: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0 16px 0 16px;
+    color: white;
+    letter-spacing: 0.2px;
+    padding-top: 14px;
+    line-height: 24px;
+}
+
+.layanann{
+    margin-top: 24px;
+}
+
+
+
+
 
 
 
