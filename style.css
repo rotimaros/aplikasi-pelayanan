@@ -1,0 +1,341 @@
+*{
+  padding: 0;
+  margin: 0;  
+}
+
+.perata{
+    display: flex;
+    justify-content: center;
+}
+
+.perata-kanan{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-menu ul li{
+    text-decoration: none;
+    display: inline-block
+}
+
+.atas{
+    margin-top: 48px;  
+}
+
+.atas-dua{
+    margin-top: 32px;
+}
+
+.warna-utama{
+    background-color: #010825;
+}
+
+.login{
+    margin-top: 52px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+.title-input-form{
+    margin-top: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-style: normal;
+
+}
+
+.input-form{
+    margin-top: 16px;
+    background-color: #394056;
+    border-radius: 4px;
+    height: 48px;
+    width: 296px;
+    border: 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0 16px 0 16px;
+    color: white;
+    letter-spacing: 0.2px;
+}
+
+.input-form::-webkit-input-placeholder{
+    color: #818391;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+}
+
+.tombol-utama{
+    margin-top: 59px;
+    width: 328px;
+    height: 48px;
+    background: #2962FF;
+    border-radius: 4px;
+    border: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.add-regis{
+    margin-top: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    color: #6C728B;
+}
+
+.go-regis{
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    color: #fff;
+}
+
+.avatar{
+    height: 32px;
+    margin: 0 16px 0 12px;
+}
+
+.sapaan{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+
+
+.bantuan-kami{
+    margin-left: 16px;
+    margin-top: 32px;
+    margin-bottom: 21px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+
+}
+
+.menu-menu {
+    width: 100%;
+    overflow: auto;
+}
+
+.menu-menu li{
+    width: 64px;
+}
+
+.menu-menu p{
+    width: 64px;
+    height: 28px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #eee;
+    margin-top: 8px;
+}
+
+.scroll-samping{
+    width: 96px;
+    height: 100px;
+}
+
+.inie{
+    display: flex;
+    justify-content: space-around;
+    width: 576px;
+}
+
+.bawah-utama{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 24px;
+    border-radius: 4px 4px 0px 0px;
+    padding-top: 16px;
+    
+}
+
+.tombol-bawah-utama{
+    width: 56px;
+    height: 4px;
+    background-color: #c4c4c4;
+    border-radius: 4px;
+    
+}
+
+.history{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    color: #000000;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.sub-history{
+    margin-left: 16px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.2px;
+    color: #818391;
+    margin-top: 8px;
+
+}
+
+.daftar-history{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-top: 27px;
+}
+
+.list{
+    width: 8px;
+    height: 8px;
+    background-color: #2153DA;
+    border-radius: 50%;
+    margin-top: 4px;
+}
+
+.daftar-history .dua{
+    display: flex;
+    align-items: flex-start;
+}
+
+.judull{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.3px;   
+    color: #000000;
+    margin-left: 24px;
+}
+
+.penjelasan{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.2px;   
+    color: #818391;
+    margin-left: 24px;
+    margin-top: 9px;   
+}
+
+.label-hijau {
+    width: 54px;
+    height: 15px;
+    background-color: #DCFBE4;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 11px;
+    letter-spacing: 0.3px;
+    color: #00C853;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-right: 16px;
+}
+
+.label-merah {
+    width: 54px;
+    height: 15px;
+    background-color: #FFEBEE;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 11px;
+    letter-spacing: 0.3px;
+    color: #EF5350;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-right: 16px;
+}
+
+.label-kuning {
+    width: 54px;
+    height: 15px;
+    background-color: #FFEBEE;;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px;
+    line-height: 11px;
+    letter-spacing: 0.3px;
+    color: #F9A825;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    margin-right: 16px;
+}
+
+.bungkus-garis{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 12px;
+}
+
+.garis{
+    
+    width: 100%;
+    height: 1px;
+    margin-left: 50px;
+    margin-right: 16px;
+    background: #EEEEEE;
+}
+
+.kembali{
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+
+
+
+
+
+
