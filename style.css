@@ -378,6 +378,54 @@
     margin-top: 24px;
 }
 
+.notifikasi {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+.label-notifikasi{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    padding-left: 72px;
+
+}
+
+.jam-notifikasi{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-right: 24px;
+}
+
+.penjelasan-notifikasi{
+    font-family:'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #818391;
+    padding-left: 72px;
+    width: 216px;
+    margin-bottom: 24px;
+}
+
 
 
 
